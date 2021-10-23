@@ -1,7 +1,7 @@
 /* main elements */
 * {
     border: 1px solid red;
-}
+} 
 
 h1 {
     color: #F9FAF8;
@@ -26,6 +26,7 @@ button {
     padding: 5px 22px;
     border-radius: 8px;
     font-weight: bold;
+    border: 0px;
 }
 
 /* navbar */
@@ -33,35 +34,33 @@ header {
     background-color: #1F2937;
     display: flex;
     padding: 10px 200px;
+    justify-content: space-between;
+}
+
+div .logo {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 div .navlinks {
-    flex: 3 1 0%;
+    flex: 1;
     display: flex;
     align-items: center;
 }
 
 div .link {
     flex: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
-div .logo {
-    flex: 1 1 0%;
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-/* top bar */
-div .top {
+/* first section */
+div .first {
     background-color: #1F2937;
     display: flex;
     padding: 50px 200px;
 }
 
-div .left {
+div .first .left {
     flex: 1;
     padding: 20px;
 }
@@ -70,4 +69,76 @@ div .placeholder {
     background-color: #E5E7EB;
     padding: 20px 50px;
     flex: 1;
+}
+
+/* second section */
+div .second .top {
+    text-align: center;
+}
+
+div .second .top h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+/* third section */
+div .third {
+    background-color: #E5E7EB;
+    padding: 50px 300px;
+}
+
+div .third p {
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.byline {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* fourth section */
+div .fourth {
+    background-color: white;
+}
+
+div .bluebox {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 10px 30px;
+    margin: 60px 200px;
+    display: flex;
+}
+
+div .text {
+    flex: 1;
+}
+
+div .button {
+    flex: 1;
+}
+
+div .bluebox button {
+    border: 2px solid white;
+}
+
+div .bluebox h2 {
+    color: white;
+}
+
+/* footer */
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 14px;
 }
