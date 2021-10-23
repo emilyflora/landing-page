@@ -23,7 +23,7 @@ body {
 button {
     background-color: #3882F6;
     color: white;
-    padding: 5px 22px;
+    padding: 7px 30px;
     border-radius: 8px;
     font-weight: bold;
     border: 0px;
@@ -38,19 +38,22 @@ header {
 }
 
 div .logo {
-    flex: 1;
     font-size: 24px;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
 div .navlinks {
-    flex: 1;
     display: flex;
     align-items: center;
 }
 
 div .link {
-    flex: 1;
+    margin: 10px;
+}
+
+div .linklast {
+    margin: 10px 0px 10px 10px;
 }
 
 /* first section */
@@ -85,11 +88,12 @@ div .second .top h2 {
 /* third section */
 div .third {
     background-color: #E5E7EB;
-    padding: 50px 300px;
+    padding: 150px 300px;
 }
 
 div .third p {
     color: #1F2937;
+    margin: 0px;
 }
 
 .quote {
@@ -114,14 +118,18 @@ div .bluebox {
     padding: 10px 30px;
     margin: 60px 200px;
     display: flex;
+    justify-content: space-between;
 }
 
 div .text {
-    flex: 1;
+    padding: 55px;
 }
 
-div .button {
-    flex: 1;
+div .buttonbox {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 55px;
 }
 
 div .bluebox button {
@@ -130,6 +138,11 @@ div .bluebox button {
 
 div .bluebox h2 {
     color: white;
+    margin: 0px;
+}
+
+div .bluebox p {
+    margin: 0px;
 }
 
 /* footer */
